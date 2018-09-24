@@ -35,7 +35,6 @@ public class Todo {
     }
 
     public String getDuedate() {
-        System.out.println(duedate.toString());
         return duedate.toString();
     }
 

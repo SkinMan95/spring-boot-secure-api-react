@@ -30,6 +30,7 @@ public class TodoServiceImpl implements TodoService {
 
     @Override
     public Todo addTodo(Todo todo) {
+        System.out.println("added new todo: " + todo);
         todoList.add(todo);
         return todo;
     }
